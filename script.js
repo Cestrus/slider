@@ -30,9 +30,10 @@ function chooseImg(ev) {
 }
 
 function changeImg(){
-    let i = mySwiper.activeIndex;
+    let i = mySwiper.realIndex;
+    console.log(i);
     miniImages.map((el, index)=>{
-        (i-1 === index)? el.style.opacity = '1' : el.style.opacity = '0.5';
+        (i === index)? el.style.opacity = '1' : el.style.opacity = '0.5';
     });
 }
 
