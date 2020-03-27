@@ -1,0 +1,24 @@
+.slider{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.swiper-container {
+    width: 600px;
+    margin: 0;
+}
+.right-panel{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.right-image{
+    width: 140px;
+    height: 70px;
+    margin: 2px 0;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    background-size: cover;
+    opacity: 0.5;
+}
